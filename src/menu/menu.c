@@ -46,13 +46,11 @@ static const char* choose_ringtone()
   while(1)
   {
     printf("\nPlease select your alarm ringtone from the list bellow:\n");
-    printf("> \"1\" Justice alarm tone\n");
-    printf("> \"2\" Mario Galaxy Gusty Garden alarm\n");
-    printf("> \"3\" Mario elevator alarm\n");
-    printf("> \"4\" Really familiar\n> ");
+    printf("> \"1\" Mario elevator alarm\n");
+    printf("> \"2\" Really familiar\n> ");
     int input;
     char term;
-    if(scanf(" %d%c", &input, &term) != 2 || term != '\n' || input > 4 || input < 1)
+    if(scanf(" %d%c", &input, &term) != 2 || term != '\n' || input > 2 || input < 1)
     {
       printf("Not valid number, try again \n");
       continue;
