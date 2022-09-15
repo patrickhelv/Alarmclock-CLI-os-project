@@ -54,3 +54,6 @@ The test_list_menu() should test the list_menu() function and test that the time
 
 test_remove_alarm() function test the remove_alarm() function in clock.c. If the test fails it means that the alarm is not removed correctly. 
 
+
+### Worked with
+- https://github.com/MariusArhaug
